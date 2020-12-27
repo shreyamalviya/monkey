@@ -68,9 +68,9 @@ FINGER_CLASSES = {
         {
             "type": "string",
             "enum": [
-                "WindowsServerFinger"
+                "ZerologonFinger"
             ],
-            "title": "WindowsServerFinger",
+            "title": "ZerologonFinger",
             "info": "Checks if server is a Windows Server and tests if it is vulnerable to Zerologon.",
             "attack_techniques": ["T1210"]
         }
